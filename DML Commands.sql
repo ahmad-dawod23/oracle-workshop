@@ -38,3 +38,14 @@ INSERT ALL
   INTO categories (id, name) VALUES (6, 'Travel & Events')
   INTO categories (id, name) VALUES (7, 'Gaming')
 SELECT * FROM dual;
+
+-- number functions:
+-- absolute value of any given value:
+select abs(list_price) from products
+-- smallest integer for equal to the provided value: 
+select floor(9.1) from dual
+-- largest integer for equal to the provided value:     
+select ceil(9.1) from dual
+
+
+
