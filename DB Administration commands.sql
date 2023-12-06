@@ -60,3 +60,7 @@ SELECT * FROM dba_users;
 --Show the information of the current user:
 
 SELECT * FROM user_users;
+
+--Show database name (run only from dba user):
+
+select name from V$database;
