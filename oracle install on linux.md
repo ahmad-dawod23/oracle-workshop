@@ -1,4 +1,5 @@
 install using yum:
+
 	yum -y install oracle-database-preinstall-19c
 
 zip file install:
