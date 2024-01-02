@@ -14,9 +14,8 @@ rpm install:
 1) download the rpm file to the server
 2) cd /{file location}
 3) yum -y localinstall oracle-database-ee-19c-1.0-1.x86_64.rpm
-
-	export ORACLE HOME=/opt/oracle/product/19c/dbhome_1
-	export ORACLE SID=ORCLCDB
+4) export ORACLE HOME=/opt/oracle/product/19c/dbhome_1
+5) export ORACLE SID=ORCLCDB
 
 User specific environment and startup programs:
 
