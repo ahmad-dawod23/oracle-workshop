@@ -29,8 +29,10 @@ User specific environment and startup programs:
 
 
 change pass for user:
+
 	ALTER USER system IDENTIFIED BY systems123;
 
 
 create listener:
+
 https://www.server-world.info/en/note?os=CentOS_7&p=oracle19c&f=3
