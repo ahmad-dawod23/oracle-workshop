@@ -64,3 +64,7 @@ SELECT * FROM user_users;
 --Show database name (run only from dba user):
 
 select name from V$database;
+
+--Show the name of the service:
+
+select value from v$parameter where name='service_names'
